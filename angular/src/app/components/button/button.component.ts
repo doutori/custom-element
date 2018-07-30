@@ -15,7 +15,7 @@ import { Component, EventEmitter, OnInit, Output, ViewEncapsulation } from '@ang
       text-align: center;
     }
   `],
-  encapsulation: ViewEncapsulation.Native
+  encapsulation: ViewEncapsulation.ShadowDom
 })
 export class ButtonComponent implements OnInit {
   private num: number = 0;
